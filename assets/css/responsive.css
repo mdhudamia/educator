@@ -6,6 +6,10 @@
     .single_course {
         flex-direction: column;
     }
+
+    .company_section {
+        display: none;
+    }
 }
 
 @media only screen and (min-width:577px) and (max-width:768px) {
