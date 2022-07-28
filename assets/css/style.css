@@ -3,10 +3,10 @@
 
 /* ======= common style ======= */
 body {
-    font-family: 'Jost', sans-serif;
     margin: 0 auto;
     padding: 0;
-    max-width: auto;
+    max-width: 100%;
+    font-family: 'Jost', sans-serif;
 }
 
 .section_padding {
@@ -89,7 +89,7 @@ a.nav-link {
     padding: 30px 40px;
 }
 
-/* ======= =========== */
+/* ======= footer section =========== */
 .footer_social ul li a {
     padding: 10px;
     background: #111;
