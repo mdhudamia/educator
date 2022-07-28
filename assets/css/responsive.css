@@ -7,6 +7,19 @@
         flex-direction: column;
     }
 
+    .course_thumbnale {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .institute_text {
+        margin-top: 30px;
+    }
+
+    .question_section .section_title {
+        width: 100% !important;
+    }
+
     .company_section {
         display: none;
     }
@@ -21,15 +34,38 @@
         flex-direction: column;
     }
 
+    .course_thumbnale {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     .courses_area.border {
         width: 444px;
         margin: 0 auto;
     }
+
+    .institute_text {
+        margin-top: 30px;
+    }
+
+    .question_section .section_title {
+        width: 100% !important;
+    }
+
+
 
 }
 
 @media only screen and (min-width:769px) and (max-width:992px) {
     h1 {
         font-size: 2.5em;
+    }
+
+    .institute_text {
+        margin-top: 30px;
+    }
+
+    .question_section .section_title {
+        width: 100% !important;
     }
 }
