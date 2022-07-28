@@ -1,0 +1,79 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ======= common style ======= */
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: auto;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+h1 {
+    color: #050E38;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    color: #111;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.btn_1 {
+    margin-top: 30px;
+}
+
+.btn_1 a {
+    text-decoration: none;
+    background: #fc5827;
+    color: #fff;
+    padding: 10px 35px;
+    transition: all ease 0.5s;
+    border: 1px solid #fc5827;
+}
+
+.btn_1 a:hover {
+    background: #050E38;
+    border: 1px solid #fc5827;
+    color: #fc5827;
+}
+
+li.nav-item {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+a.nav-link {
+    color: #666;
+}
+
+/* ========= =========== */
+.header_section {
+    background-image: url(../img/cover/back_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* ========= instractor ========= */
+.instractor {
+    background: #F2F3F7;
+    transition: all ease .5s;
+}
+
+.instractor:hover {
+    background: #fff;
+    box-shadow: 1px 1px 10px #ddd;
+}
+
+.instractor:hover h3 {
+    color: #fc5827;
+}

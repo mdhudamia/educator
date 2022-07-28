@@ -1,0 +1,31 @@
+@media only screen and (max-width:576px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .single_course {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .single_course {
+        flex-direction: column;
+    }
+
+    .courses_area.border {
+        width: 444px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
