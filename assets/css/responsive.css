@@ -78,6 +78,9 @@
         width: 100% !important;
     }
 
+    .company_section {
+        display: none;
+    }
 
 }
 
@@ -106,5 +109,9 @@
 
     .question_section .section_title {
         width: 100% !important;
+    }
+
+    .company_section {
+        display: none;
     }
 }
