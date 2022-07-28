@@ -1,21 +1,28 @@
 @media only screen and (max-width:576px) {
-    body {
-        margin: 0 auto;
-        padding: 0;
-        max-width: 100%;
-    }
-
     h1 {
         font-size: 1.8em;
     }
 
-    .single_course {
-        flex-direction: column;
+    .caption_text h1 {
+        font-size: 1.8rem !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
     }
 
-    .course_thumbnale {
-        width: 100%;
-        margin-bottom: 20px;
+    .carousel-caption p {
+        display: none;
+    }
+
+    h5.text-primary {
+        font-size: 1.2rem;
+    }
+
+    .btn_1 {
+        margin-top: 20px;
+    }
+
+    .btn_1 a {
+        padding: 8px 20px;
     }
 
     .institute_text {
@@ -46,28 +53,8 @@
 
 @media only screen and (min-width:577px) and (max-width:768px) {
 
-    body {
-        margin: 0 auto;
-        padding: 0;
-        max-width: 100%;
-    }
-
     h1 {
         font-size: 2.5em;
-    }
-
-    .single_course {
-        flex-direction: column;
-    }
-
-    .course_thumbnale {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .courses_area.border {
-        width: 444px;
-        margin: 0 auto;
     }
 
     .institute_text {

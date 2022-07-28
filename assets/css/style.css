@@ -3,14 +3,14 @@
 
 /* ======= common style ======= */
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    max-width: 100%;
     font-family: 'Jost', sans-serif;
+    width: auto;
 }
 
 .section_padding {
-    padding: 100px 20px;
+    padding: 100px 0px;
 }
 
 h1 {
@@ -58,13 +58,33 @@ a.nav-link {
     color: #666;
 }
 
-/* ========= =========== */
-.header_section {
-    background-image: url(../img/cover/back_1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* ================ */
+.carousel_img {
+    width: 100%;
     height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.carousel_img::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.carousel-caption h1 {
+    color: #eeeeee;
+}
+
+.carousel-caption p {
+    color: #ddd;
+    font-size: 18px;
 }
 
 /* ========= instractor ========= */
@@ -82,7 +102,6 @@ a.nav-link {
 .instractor:hover h3 {
     color: #fc5827;
 }
-
 
 /* ============ ============ */
 .clinte_area {
